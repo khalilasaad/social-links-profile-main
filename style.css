@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 550px;
+    width: 350px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container h2 {
+    font-weight: 700;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.container p {
+    color: hsl(0, 0%, 100%);
+}
+
+.container ul {
+    list-style-type: none;
+    width: 80%;
+}
+
+.container ul li {
+    background-color: hsl(0, 0%, 20%);
+    margin: 12px 0px;
+    padding: 15px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.container ul li a {
+    justify-self: center;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container ul li a:hover {
+    color: lightgray;
+}
